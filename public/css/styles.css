@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #EAC926;
+    width: 390px;
+}
+.logo {
+    width: 300px;
+}
+.imagen {
+    width: 390px;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+}
+.burger-menu {
+    text-align: center;
+}
+main {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
