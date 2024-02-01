@@ -1,0 +1,56 @@
+.home-header {
+    background-color: var(--amarillo);
+
+}
+
+.home-header .banner {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.home-header .logo {
+    width: 60%;
+    margin: 20px;
+}
+
+.home-header .buscador{
+    margin-left: 10px;
+   
+}
+
+
+.home-header .primary-nav,
+.secundary-nav {
+    padding-top: 10px;
+    display: none;
+}
+
+.home-header .cuotas {
+    text-align: center;
+    font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+}
+
+.home-header {
+    padding-top: 10px;
+
+}
+
+.home-header .burger-menu {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.home-header .burger-menu i {
+    font-size: 20px;
+    background-color: var(--celeste);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.ofertas .oferta{
+    font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+}

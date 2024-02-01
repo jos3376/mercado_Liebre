@@ -1,0 +1,86 @@
+.home-main {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+
+
+.ultima-vista .fa-truck {
+    border-radius: 19px;
+    padding: 3px 15px 15px 3px;
+    color: var(--verde);
+    border: solid 1px var(--verde);
+
+}
+
+.ofertas .fa-truck {
+    border-radius: 19px;
+    padding: 3px 15px 15px 3px;
+    color: var(--verde);
+    border: solid 1px var(--verde);
+
+}
+
+.ultima-vista .descuento {
+    font-size: 14px;
+    color: var(--verde);
+}
+
+.ofertas .descuento {
+    font-size: 14px;
+    color: var(--verde);
+
+}
+
+.home-main .image {
+    width: 90%;
+}
+
+.home-main .oferta {
+    color: var(--grisOscuro)
+}
+
+.ultima-vista .vista {
+    font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+    color: var(--grisOscuro);
+}
+
+.ultima-vista .precio {
+    color: var(--grisOscuro);
+}
+
+.ultima-vista .producto {
+    color: var(--grisOscuro);
+    margin-bottom: 10px;
+}
+
+.ofertas .precio {
+    color: var(--grisOscuro);
+}
+
+.ofertas .producto {
+    color: var(--grisOscuro);
+    margin-bottom: 10px;
+}
+
+.ofertas .articulo {
+
+    border: solid 1px var(--grisClaro);
+    margin: 10px;
+}
+
+.ultima-vista .articulo {
+    border: solid 1px var(--grisClaro);
+    margin: 10px;
+}
+.ultima-vista .descripción{
+    
+margin-right: 270px;
+}
+.ofertas .descripción{
+    margin-right: 270px;
+}
