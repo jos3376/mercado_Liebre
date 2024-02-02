@@ -7,7 +7,9 @@
 
 }
 
-
+.ofertas .oferta{
+    font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+}
 
 .ultima-vista .fa-truck {
     border-radius: 19px;
