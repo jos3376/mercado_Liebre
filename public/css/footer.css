@@ -23,4 +23,5 @@
 .home-footer section.copyright h3 {
     font-size: var(--cuerpoTexto);
     margin-top: 40px;
+    text-align: center;
 }
