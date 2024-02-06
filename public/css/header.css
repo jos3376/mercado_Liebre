@@ -2,6 +2,7 @@
     background-color: var(--amarillo);
 
 }
+
 .home-header .banner {
     width: 100%;
     margin-bottom: -5px;
@@ -12,9 +13,9 @@
     margin: 20px;
 }
 
-.home-header .buscador{
+.home-header .buscador {
     margin-left: 10px;
-   
+
 }
 
 
@@ -49,4 +50,27 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
+}
+
+@media (min-width: 361px) {
+
+    .home-header .primary-nav,
+    .home-header .secundary-nav {
+        display: block;
+        padding: 0;
+    }
+
+    .home-header .burger-menu {
+        display: none;
+    }
+}
+
+
+@media (min-width: 769px) {
+
+    .home-header .primary-nav,
+    .home-header .secundary-nav {
+        display: block;
+        padding: 0;
+    }
 }
