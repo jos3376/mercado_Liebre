@@ -1,8 +1,15 @@
+
+
 .home-header {
     background-color: var(--amarillo);
+    
 
 }
-
+.home-header .logo-buscador{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
 .home-header .banner {
     width: 100%;
     margin-bottom: -5px;
@@ -14,7 +21,7 @@
 }
 
 .home-header .buscador {
-    margin-left: 10px;
+    
 
 }
 
@@ -27,7 +34,7 @@
 
 .home-header .cuotas {
     text-align: center;
-    font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+    font-size: var(--cuerpoDeTexto);
 }
 
 .home-header {
@@ -66,11 +73,3 @@
 }
 
 
-@media (min-width: 769px) {
-
-    .home-header .primary-nav,
-    .home-header .secundary-nav {
-        display: block;
-        padding: 0;
-    }
-}
