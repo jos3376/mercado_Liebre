@@ -1,15 +1,17 @@
-
-
 .home-header {
     background-color: var(--amarillo);
-    
-
 }
-.home-header .logo-buscador{
+
+.home-header.h3 {
+    top: 10px;
+}
+
+.home-header .logo-buscador {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
 }
+
 .home-header .banner {
     width: 100%;
     margin-bottom: -5px;
@@ -20,10 +22,7 @@
     margin: 20px;
 }
 
-.home-header .buscador {
-    
-
-}
+.home-header .buscador {}
 
 
 .home-header .primary-nav,
@@ -48,7 +47,6 @@
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 20px;
-
 }
 
 .home-header .burger-menu i {
@@ -59,17 +57,80 @@
     border-radius: 5px;
 }
 
-@media (min-width: 361px) {
+@media (min-width: 426px) {
+    .home-header {}
 
-    .home-header .primary-nav,
-    .home-header .secundary-nav {
-        display: block;
-        padding: 0;
+    .home-header .logo-buscador {}
+
+    .home-header .logo-buscador-titulo {
+        display: flex;
     }
+
+    .home-header .banner {}
+
+    .home-header .logo {}
+
+    .home-header .buscador {}
+
+
+    .home-header .primary-nav {
+        display: flex;
+    }
+
+    .home-header .primary-nav ul li {
+        margin-left: 15px;
+        display: initial;
+    }
+
+    .home-header .secundary-nav {
+        display: flex;
+    }
+
+    .home-header .secundary-nav ul li {
+        margin-left: 15px;
+        display: initial;
+        ;
+    }
+
+    .home-header .cuotas {
+        padding-top: 24px;
+        margin-left: auto;
+        padding-right: 32px;
+    }
+
+    .home-header {}
 
     .home-header .burger-menu {
+
         display: none;
     }
+
+    .home-header .burger-menu i {}
 }
 
+@media (min-width: 769px) {
+    .home-header {}
 
+    .home-header .logo-buscador {}
+
+    .home-header .banner {}
+
+    .home-header .logo {}
+
+    .home-header .buscador {}
+
+
+    .home-header .primary-nav,
+    .secundary-nav {}
+
+    .home-header .cuotas {}
+
+    .home-header {}
+
+    .home-header .burger-menu {
+
+        display: none;
+    }
+
+    .home-header .burger-menu i {}
+}
