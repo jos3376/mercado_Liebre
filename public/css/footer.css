@@ -25,3 +25,12 @@
     margin-top: 40px;
     text-align: center;
 }
+@media (min-width: 769px) {
+    .footer-flex{
+        display: flex;
+    }
+    .home-footer section i:hover {
+        color: rgb(0, 255, 47);
+        transition: 1s;
+    }
+}
