@@ -1,7 +1,7 @@
 module.exports = {
-    create:require("./create.controllers"),
-    destroy:require("./destroy.controllers"),
-    edit:require("./edit.controllers"),
-    store:require("./store.controllers"),
-    update:require("./update.controllers"),
+    create:require("./create.controller"),
+    destroy:require("./destroy.controller"),
+    edit:require("./edit.controller"),
+    store:require("./store.controller"),
+    update:require("./update.controller"),
 };

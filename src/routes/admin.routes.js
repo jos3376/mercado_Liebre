@@ -1,20 +1,15 @@
-// ************ Require's ************
 const express = require('express');
 const router = express.Router();
 
-// ************ Controller Require ************
-const { create, store, edit, destroy, update } = require("../controllers/admin")
+const adminController = require('../controllers/admin');
 
-/*** CREATE ONE PRODUCT ***/ 
-router.get('/crear-producto', create); 
-router.post('/crear-producto', store); 
+router.get('/crear-producto', adminController.create); 
+router.post('/crear-producto', adminController.store);
 
-/*** EDIT ONE PRODUCT ***/ 
-router.get('/editar-producto/:id', edit); 
-router.put('/editar-producto/:id', update); 
 
-/*** DELETE ONE PRODUCT***/ 
-router.delete('/eliminar-producto/:id', destroy); 
+router.get('/editar-producto/:id/', adminController.edit); 
+router.put('/editar-producto/:id', adminController.update); 
+router.delete('/eliminar-producto/:id', adminController.destroy); 
 
 
 module.exports = router; 

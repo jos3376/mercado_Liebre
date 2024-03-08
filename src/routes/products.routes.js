@@ -1,15 +1,13 @@
-// ************ Require's ************
 const express = require('express');
 const router = express.Router();
 
-// ************ Controller Require ************
-const { list, detail } = require('../controllers/products');
+const products = require('../controllers/products');
 
-/*** GET ALL PRODUCTS ***/ 
-router.get('/', list); 
+router.get("/", (req, res) => res.redirect("/productos/list"))
 
-/*** GET ONE PRODUCT ***/ 
-router.get('/detalle/:id/', detail); 
+router.get('/list', products.list); 
+
+router.get('/detalle/:id', products.detail ); 
 
 
 module.exports = router;
