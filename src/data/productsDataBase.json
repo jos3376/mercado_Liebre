@@ -144,29 +144,11 @@
       "image": "img-parlante-sony.jpg"
    },
    {
-      "id": 17,
-      "name": "asdf",
-      "price": 25,
+      "id": 20,
+      "name": "ssd",
+      "price": 150,
       "discount": 10,
       "description": "asdf",
-      "category": "in-sale",
-      "image": "defaul-image.png"
-   },
-   {
-      "id": 18,
-      "name": "asdfda",
-      "price": 150,
-      "discount": 10,
-      "description": "asdfasdf",
-      "category": "",
-      "image": "defaul-image.png"
-   },
-   {
-      "id": 19,
-      "name": "asdfda",
-      "price": 150,
-      "discount": 10,
-      "description": "asdfasdfasdf",
       "category": "in-sale",
       "image": "defaul-image.png"
    }
